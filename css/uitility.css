@@ -1,0 +1,63 @@
+.border {
+  border: 2px solid;
+}
+.flex {
+  display: flex;
+}
+.justify-content {
+  justify-content: center;
+}
+.align-items {
+  align-items: center;
+}
+.invert {
+  filter: invert(1);
+}
+.bg-black {
+  background-color: black;
+}
+.bg-grey {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+.m-1 {
+  margin: 5px;
+}
+.p-1 {
+  padding: 10px 14px;
+}
+h2 {
+  font-weight: 700;
+  padding: 13px 0;
+  cursor: pointer;
+}
+
+/* For Webkit-based browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* dark track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #444, #222); /* dark gradient thumb */
+  border-radius: 10px;
+  border: 2px solid #1e1e1e; /* creates space between thumb and track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #666, #333);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #1e1e1e;
+}
